@@ -20,7 +20,7 @@ const myModule = (() => {
     const exported = {
         publicFoo: "Valor público, pueden verme desde donde me llamen",
         publicBar: "Otro valor público",
-            publicBaz: baz
+        publicBaz: baz
       }
      // Exposición de variables locales
       return exported

@@ -6,7 +6,7 @@
   }
   
   // Esta es una función que se guardara en este módulo como verbose
-  exports.verbose = (message) => {
+  exports.verbose = (message) => { //exports cuando se mande a llamar el modulo
     console.log(`verbose: ${message}`)
   }
   

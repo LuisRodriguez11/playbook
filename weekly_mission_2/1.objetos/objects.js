@@ -32,6 +32,21 @@ console.log(myobject3);
 console.log(myobject3.name);
 console.log(myobject3.adress); //forma 1 de escribir el objeto con sus atributos
 console.log(myobject3["adress"]);//forma 2 de escribir el onjeto con sus atributos
+//4.Creando un objeto con metodos
+const pet = {
+    name: "Benito",
+
+    // Esta es una función que se guarda como propiedad
+    sayHello: function(){
+    // this.name hace referencia a la propiedad del objeto
+    console.log(`${this.name} "Te saluda en idioma perro: Wau"`)
+    }
+}
+
+console.log("Ejemplo 4: Creando un objeto con metodos");
+pet.sayHello(); //Llamar el objeto con el metodo
+
+
 
 
 

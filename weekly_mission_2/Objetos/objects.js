@@ -45,7 +45,17 @@ const pet = {
 
 console.log("Ejemplo 4: Creando un objeto con metodos");
 pet.sayHello(); //Llamar el objeto con el metodo
+//5. Creando un objeto que reciba parametros
+const myPet = {
+    name: "Max",
 
+    sayHello: function(yourPet){
+        console.log(`${this.name} Says hello to ${yourPet}`)
+    }
+}
+
+console.log("Ejemplo 5: Creando un objeto que reciba parámetros");
+myPet.sayHello("Tulio"); //Meter el valor del parámetro en este caso string dentro del parentesis
 
 
 

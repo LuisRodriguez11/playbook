@@ -17,7 +17,7 @@ const myobject3 = {
     age: 5,
     nicknames: [
         "Beno",
-        "Gordo",
+        "Gordo"
     ],
 
     adress: {
@@ -30,8 +30,8 @@ const myobject3 = {
 console.log("Ejemplo 3: Creando un objeto con diferentes propiedades");
 console.log(myobject3);
 console.log(myobject3.name);
-console.log(myobject3.adress);
-console.log(myobject3["adress"]);
+console.log(myobject3.adress); //forma 1 de escribir el objeto con sus atributos
+console.log(myobject3["adress"]);//forma 2 de escribir el onjeto con sus atributos
 
 
 

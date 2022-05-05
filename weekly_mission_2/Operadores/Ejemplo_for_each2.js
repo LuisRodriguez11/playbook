@@ -1,7 +1,3 @@
-// Ejemplo 1: for Each para imprimir elementos de una lista
-const numbers = [1, 2, 3, 4 , 5]
-console.log("Ejemplo 1: for Each para imprimir elementos de una lista")
-numbers.forEach(num => console.log(num))
 // Ejemplo 2: for Each para calcular la suma de todos los elementos de una lista
 let sum = 0;
 const numbers2 = [1, 2, 3, 4, 5];
